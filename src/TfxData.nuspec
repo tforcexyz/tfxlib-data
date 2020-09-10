@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Tfx.Data</id>
+    <version>1.0.0</version>
+    <title>TFX Library: Data</title>
+    <description>TFX Library: Data</description>
+    <authors>T-Force Xyz</authors>
+    <owners>T-Force Xyz</owners>
+    <copyright>T-Force Xyz</copyright>
+    <licenseUrl>https://github.com/tforcexyz/tfxlib-data/blob/master/LICENSE</licenseUrl>
+    <releaseNotes>https://github.com/tforcexyz/tfxlib-data/blob/master/RELEASE</releaseNotes>
+    <iconUrl>https://github.com/tforcexyz/tfxlib-data/blob/master/package_icon.png</iconUrl>
+    <projectUrl>https://github.com/tforcexyz/tfxlib-data/</projectUrl>
+    <repository url="https://github.com/tforcexyz/tfxlib-data/" type="git" />
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags></tags>
+    <dependencies>
+      <dependency id="Tfx" version="[1.0,2.0)" />
+      <group targetFramework=".NETFramework4.5" />
+      <group targetFramework="netstandard2.0">
+        <dependency id="System.ComponentModel" version="4.3.0" />
+        <dependency id="System.ComponentModel.Annotations" version="4.4.1" />
+        <dependency id="System.Configuration.ConfigurationManager" version="4.4.1" />
+      </group>
+    </dependencies>
+    </metadata>
+  <files>
+    <file src="TfxData\bin\Release\**\TfxData.dll" target="lib/" />
+  </files>
+</package>

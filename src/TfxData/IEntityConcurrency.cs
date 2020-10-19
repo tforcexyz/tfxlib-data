@@ -16,13 +16,9 @@
 namespace Xyz.TForce.Data
 {
 
-  public interface IEntityMetadata
+  public interface IEntityConcurrency
   {
 
-    long MetaCreatedTimeCode { get; set; }
-
-    long MetaModifiedTimeCode { get; set; }
-
-    bool MetaIsDeleted { get; set; }
+    byte[] MetaRowVersion { get; set; }
   }
 }
